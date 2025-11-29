@@ -52,6 +52,9 @@ function CanvasContainerInternal<TagName extends ContainerElementType = 'div'>(
           contentFitClassNameMap[contentFit],
           contentLayerClassNameMap[contentLayer],
         )}
+        style={{
+          '--thickness': options.thickness ?? 10,
+        }}
       >
         {children}
       </ContentElement>
