@@ -53,7 +53,7 @@ function CanvasContainerInternal<TagName extends ContainerElementType = 'div'>(
           contentLayerClassNameMap[contentLayer],
         )}
         style={{
-          '--thickness': options.thickness ?? 10,
+          '--thickness': `${options.thickness ?? 10}px`,
         }}
       >
         {children}
