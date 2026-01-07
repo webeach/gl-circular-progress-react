@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@webeach/gl-circular-progress':
-        specifier: ^0.2.1
-        version: 0.2.1
+        specifier: ^0.2.2
+        version: 0.2.2
       '@webeach/react-hooks':
         specifier: ^0.2.0
         version: 0.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1022,8 +1022,8 @@ packages:
     resolution: {integrity: sha512-31IM4BgaDEgW/KvbSfQzsl1YJNu4B7nM3Nxh8VFcOIrvKzkBCIDDpgZNzwQyc5Gz4rtOmsq6Lc+hgVrYTkrh+w==}
     engines: {node: 22.15.0}
 
-  '@webeach/gl-circular-progress@0.2.1':
-    resolution: {integrity: sha512-HdZXzWHPDKFycfT41laWUmIvumCTTXLniDq2DVhzq0ACu7iJ1GG8iouKkgfXILbZboxFCazN6eYT62hCOk/G7Q==}
+  '@webeach/gl-circular-progress@0.2.2':
+    resolution: {integrity: sha512-TD/ECXWW8c0e3+w39DJlp1CrIeTKXU0ysqWTXPuSYmthj2IUSVC2UyIgFutemKf7gtYxc3SXL7iMpoa3mLrcfA==}
     engines: {node: ^22, pnpm: ^10}
 
   '@webeach/react-hooks@0.2.0':
@@ -4406,7 +4406,7 @@ snapshots:
 
   '@webeach/collection@1.1.0': {}
 
-  '@webeach/gl-circular-progress@0.2.1': {}
+  '@webeach/gl-circular-progress@0.2.2': {}
 
   '@webeach/react-hooks@0.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:

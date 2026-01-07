@@ -125,7 +125,7 @@
     "react-dom": "^18.0.0 || ^19.0.0"
   },
   "dependencies": {
-    "@webeach/gl-circular-progress": "^0.2.1",
+    "@webeach/gl-circular-progress": "^0.2.2",
     "@webeach/react-hooks": "^0.2.0"
   }
 }
