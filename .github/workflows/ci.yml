@@ -10,7 +10,6 @@ on:
       - next
 
 env:
-  NODE_VERSION: 22
   PNPM_VERSION: 10
 
 jobs:
@@ -34,10 +33,10 @@ jobs:
         with:
           version: ${{ env.PNPM_VERSION }}
 
-      - name: Setup node ${{ env.NODE_VERSION }}
+      - name: Setup node
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version-file: '.nvmrc'
           cache: 'pnpm'
 
       - name: Install dependencies
@@ -62,10 +61,10 @@ jobs:
         with:
           version: ${{ env.PNPM_VERSION }}
 
-      - name: Setup node ${{ env.NODE_VERSION }}
+      - name: Setup node
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version-file: '.nvmrc'
           cache: 'pnpm'
 
       - name: Install dependencies
@@ -94,10 +93,10 @@ jobs:
         with:
           version: ${{ env.PNPM_VERSION }}
 
-      - name: Setup node ${{ env.NODE_VERSION }}
+      - name: Setup node
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version-file: '.nvmrc'
           cache: 'pnpm'
 
       - name: Install dependencies

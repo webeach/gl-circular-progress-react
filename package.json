@@ -34,7 +34,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "engines": {
-    "node": "^22",
+    "node": ">=18",
     "pnpm": "^10"
   },
   "type": "module",

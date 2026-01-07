@@ -27,6 +27,7 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.pnpm-store
 
 # Build directories and files
 /cosmos-export
@@ -35,6 +36,3 @@ node_modules
 *.local
 *.tsbuildinfo
 *.backup.json
-
-# draft code
-/src/hooks/_draft/
