@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/webeach/gl-circular-progress-react/compare/v0.1.2...v0.1.3) (2026-01-07)
+
+
+### Bug Fixes
+
+* **shader:** resolve rendering artifacts and alpha issues on mobile ([16eac48](https://github.com/webeach/gl-circular-progress-react/commit/16eac48f9cba52a3a1548ca728edb8bd7b4fdc97))
+
 ## [0.1.2](https://github.com/webeach/gl-circular-progress-react/compare/v0.1.1...v0.1.2) (2025-11-29)
 
 
